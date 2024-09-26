@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title></title>
+    <meta name="description" content="Describe your website">
+    <meta name="author" content='Chris Turner'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.3/css/academicons.min.css" integrity="sha512-vaoopdl+FJahyY2ddhsbDj8yDiRuyUYH/vIjF3z+cBg0sKc07NAQmUYli8volCGlW9OwlQyjVsr7Lh6qAManlw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    <style>
+        /* Reduce overall font size */
+        body {
+            font-size: 0.05rem;
+        }
+
+        /* Style the two columns */
+        .two-column-layout {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px; /* Add space between each set of columns */
+        }
+
+        .content-column {
+            flex: 0 0 65%; /* Takes up 65% of the width */
+            padding-right: 2%;
+        }
+
+        .figure-column {
+            flex: 0 0 30%; /* Takes up 30% of the width */
+            padding-left: 2%;
+        }
+
+        /* Figure styling */
+        .figure-column img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Ensure responsiveness */
+        @media (max-width: 768px) {
+            .two-column-layout {
+                flex-direction: column;
+            }
+        }
+
+        /* Custom styles */
+        .container {
+            max-width: 1200px; /* Increase max-width */
+            width: 100%;
+        }
+        body {
+            padding: 0; /* No padding */
+            margin: 0; /* No margin */
+        }
+        .mt-5 {
+            margin-top: 3rem; /* Adjust margin-top as needed */
+        }
+
+        .circular-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .d-flex-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .figure-column {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+}
+
+.figure-column figure {
+    margin-top: 20px; /* Push the figure down */
+}
+
+.figure-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="container mt-5">
+        <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+            <a class="navbar-brand mx-0 mr-sm-auto" href="http://localhost:1313/" title="Marko Irisarri">
+                Marko Irisarri
+            </a>
+            <div class="navbar-nav flex-row flex-wrap justify-content-center">
+                <a class="nav-item nav-link" href="/research/" title="research">research</a>
+                <span class="nav-item navbar-text mx-1">/</span>
+                <a class="nav-item nav-link" href="/teaching/" title="teaching">teaching</a>
+                <span class="nav-item navbar-text mx-1">/</span>
+                <a class="nav-item nav-link" href="/cv/cv_marko_irisarri.pdf" title="cv">cv</a>
+            </div>
+        </nav>
+    </div>
+    <hr>
+    <div id="content">
+        <div class="container">
+            <div class="two-column-layout">
+                <!-- Content Column -->
+                <div class="content-column">
+                    <h1 id="research">Research</h1>
+                    <h2 id="jmp">JMP</h2>
+                    <h3 id="entrepreneurship-across-cities-uncovering-policy-implications">
+                        Entrepreneurship Across Cities: Uncovering Policy Implications
+                    </h3>
+                    <p>Entrepreneurship has long been perceived as an engine of growth, innovation and job creation. As a result, it has attracted the interest of policymakers at every administrative level. However, making quantitative predictions about entrepreneurial policies remains challenging. Consequently, the main contribution of the paper is to provide a Dynamic Spatial General Equilibrium model wherein entrepreneurial policies can be studied. The model is calibrated by employing rich Spanish administrative micro-level data on the employment histories of individuals and balance sheet data of firms. The resulting model features endogenous wealth accumulation, spatial mobility, sector heterogeneity, financial frictions and occupational choice. A custom C++/CUDA implementation leverages GPU parallelism for efficient computation. Policy experiments show that place-based entrepreneurial subsidies are more welfare-enhancing when targeted at larger, productive cities rather than smaller, less productive ones, mainly due to the uneven impact of financial frictions. A 0.1% GDP expenditure on subsidizing entrepreneurship in Madrid (the capital) results in a 0.8% country-wide welfare improvement, a centralization of population towards Madrid, and a relative 2% decline in financial frictions’ intensity across the country.</p>
+                </div>
+                
+                <!-- Figure Column -->
+                <div class="figure-column">
+                    <figure>
+                        <img src="/img/webpage__transfersbenchmark_share_gdp.png" width="600" height="400"></img>
+                        <figcaption>Welfare responses in the calibrated model to place-based lump-sum entrepreneurial transfers in Madrid (large, productive), Castelló (small, less productive) and the entire country.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="two-column-layout">
+                <!-- Content Column -->
+                <div class="content-column">
+                    <!-- Working Papers -->
+                    <h2 id="working-papers">Working Papers</h2>
+                    <h3 id="entrepreneurship-financial-frictions-and-optimal-policy">
+                        Entrepreneurship, Financial Frictions and Optimal Policy
+                    </h3>
+                    <p>The presence of financially constrained entrepreneurs generates an heterogeneity in returns which in turn leads to a non-trivial distinction between capital and wealth taxes. We study the effects of partial reforms and optimal long-run taxation in a model that matches key U.S. economy moments on its pass-through sector and degree of inequality. Relative to the existing literature, we examine the implications of a wider set of tax instruments (including exemptions and inheritance taxes), inter-generational transmission of abilities and endogeneity of the occupational choice. We find that (i) a lower degree of inter-generational transmission of abilities weakens the welfare gains attainable through optimal policy (ii) allowing for a wider set of tax instruments, in particular an exemption on the wealth tax, leads to significant additional relative welfare gains (+30%) and shifts wealth taxation into positive territory (iii) the presence of the endogenous occupational choice dimension weakens the motive to substitute capital for wealth taxation, given the extensive margin misallocation that it entails.</p>
+                </div>
+                
+                <!-- Figure Column -->
+                <div class="figure-column">
+                    <figure>
+                        <img src="/img/responses_welfare_2nd_chapter.png"  width="800" height="400">
+                        <figcaption>Response of welfare in the calibrated economy to revenue-neutral tax exchanges. </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!--
+            <div class="two-column-layout">
+                <div class="content-column">
+                    <h2 id="other-work">Other Work</h2>
+                    <h3 id="the-rise-of-intangibles-and-the-business-cycle-implications">
+                        The Rise of Intangibles and the Business Cycle Implications
+                    </h3>
+                    
+                </div>
+
+                <div class="figure-column">
+                    <figure>
+                        <img src="path-to-your-figure3.jpg" alt="Research figure 3">
+                        <figcaption>Figure caption describing the third research visual.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        -->
+        </div>
+    </div>
+
+    <div id="footer" class="mb-5">
+        <hr>
+    </div>
+</body>
+</html>

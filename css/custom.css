@@ -1,0 +1,8 @@
+#about .row {
+    display: flex;
+    align-items: center; /* Center the image and text vertically */
+}
+
+#about .avatar {
+    margin-right: 20px; /* Space between image and text */
+}
