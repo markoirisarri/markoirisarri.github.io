@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Marko Irisarri</title>
-    <link>http://localhost:1313/</link>
+    <link>http://markoirisarri.github.io/</link>
     <description>Recent content in Home on Marko Irisarri</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://markoirisarri.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/cv/</link>
+      <link>http://markoirisarri.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
+      <guid>http://markoirisarri.github.io/cv/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/research/</link>
+      <link>http://markoirisarri.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <guid>http://markoirisarri.github.io/research/</guid>
       <description>Research JMP Entrepreneurship Across Cities: Uncovering Policy Implications Entrepreneurship has long been perceived as an engine of growth, innovation and job creation. As a result, it has attracted the interest of policymakers at every administrative level. However, making quantitative predictions about entrepreneurial policies remains challenging. Consequently, the main contribution of the paper is to provide a Dynamic Spatial General Equilibrium model wherein entrepreneurial policies can be studied. The model is calibrated by employing rich Spanish administrative micro-level data on the employment histories of individuals and balance sheet data of firms.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/teaching/</link>
+      <link>http://markoirisarri.github.io/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/</guid>
+      <guid>http://markoirisarri.github.io/teaching/</guid>
       <description>Teaching Graduate TA - Universitat Pompeu Fabra (UPF) Advanced Techniques in Macroeconomics I (2022) for professor Davide Debortoli (English) Undergraduate TA - Universitat Pompeu Fabra (UPF) Data Analysis (2021,2022,2023) (Catalan and Spanish) Introduction to Statistics (2022) (Catalan and Spanish) Introduction to Game Theory (2019, 2020) (English) Information Economics (2019) (English) </description>
     </item>
   </channel>
